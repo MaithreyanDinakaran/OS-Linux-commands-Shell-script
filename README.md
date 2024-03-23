@@ -121,7 +121,7 @@ hello world
 cat > newfile 
 Hello world
 hello world
- ![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/cd01dec6-e7d3-4114-829d-9b813a990271)
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/cd01dec6-e7d3-4114-829d-9b813a990271)
 
 grep Hello newfile 
 ## OUTPUT
@@ -133,29 +133,24 @@ grep hello newfile
  
 ## OUTPUT
 grep -v hello newfile
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/b520bd75-e5a2-409c-b75a-d14267b6ad51)
 
-
+## OUTPUT
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/954a82a5-9c02-404a-9c06-cce6511d322f)
 cat newfile | grep -i "hello"
+
 ## OUTPUT
-
-
-
-
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/5375aea3-7cf9-4f42-81d3-bd030189db2a)
 cat newfile | grep -i -c "hello"
+
 ## OUTPUT
-
-
-
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/bedbf446-156c-408a-b417-1653340df336)
 
 grep -R ubuntu /etc
 ## OUTPUT
-
-
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/a2c7cfd0-8354-4242-aaee-fbcc8302276d)
 
 grep -w -n world newfile   
-## OUTPUT
-
-
 cat < newfile 
 ```
 Hello world
@@ -165,6 +160,7 @@ Unix is predecessor
 Linux is best in this World
 ^d
 ```
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/64581f03-ff2c-4e44-81f6-b150d854fdff)
 
 cat > newfile
 ```
@@ -175,28 +171,27 @@ Unix is predecessor
 Linux is best in this World
 ^d
  ```
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/0921d823-ccaf-4026-8edd-c58627a3f1b6)
+
 egrep -w 'Hello|hello' newfile 
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/0391824f-93fa-4d01-8ec9-95ee2d0ecee6)
+
 ## OUTPUT
+egrep -w '(H|h)ello' newfile
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/a9389b61-327c-4c64-8c5e-39800e4d722d)
 
-
-
-egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-
-
-
 egrep -w '(H|h)ell[a-z]' newfile 
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/e93cd1bf-79ff-4ee7-b502-104e6fd8e4af)
+
 ## OUTPUT
+egrep '(^hello)' newfile
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/004b7314-15b1-4549-8437-a0c8be8707de)
 
-
-
-
-egrep '(^hello)' newfile 
 ## OUTPUT
-
-
-
 egrep '(world$)' newfile 
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/ee6cf6cc-b585-46a8-a2bb-0c88397d4c9d)
+
 ## OUTPUT
 
 
