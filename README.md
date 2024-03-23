@@ -30,6 +30,8 @@ s.n. dasgupta
 sumit chakrobarty
 ^d
 ```
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/487cb6bb-3d9f-45e2-b823-e475af4820aa)
+
 cat > file2
 ```
 anil aggarwal
@@ -39,26 +41,33 @@ lalit chowdury
 s.n. dasgupta
 ^d
 ```
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/3140a4cf-46b2-4509-9a4e-2a00f72fe138)
+
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/bada6c6e-f9fe-432e-8bfe-58c0baa9f576)
 
 
 
 cat < file2
 ## OUTPUT
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/43db26f0-10c4-40ec-ad1a-6473c3616a8d)
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/1e436852-7420-4faf-8fc0-0567c8234f35)
+
 comm file1 file2
  ## OUTPUT
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/cd183bb1-beb8-4308-bd75-db3f3f2e5a60)
 
  
 diff file1 file2
 ## OUTPUT
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/c2cc474a-f698-4673-8bc8-c71a6cc5d881)
 
 
 #Filters
@@ -71,6 +80,8 @@ Hello world
 This is my world
 ^d
 ```
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/279f778f-c8cc-4ae0-b18a-84a22b23bd6e)
+
 cat > file22
 ```
 1001 | Ram | 10000 | HR
@@ -78,21 +89,25 @@ cat > file22
 1003 | Joe |  7000 | Developer
 ^d
 ```
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/c899d5b7-de08-4437-a424-8d69022ecbe6)
 
 
 cut -c1-3 file11
 ## OUTPUT
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/d9a2c323-52d3-4d74-b3a3-80d15c5a07ef)
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/6bd7f4fd-fd34-4e33-8c2e-1b7b014a51cc)
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/aa77e90a-f17f-4d57-bb29-9c55a07634f1)
 
 
 cat < newfile 
@@ -101,24 +116,23 @@ Hello world
 hello world
 ^d
 ````
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/4c787f8a-929e-4df6-ba60-2a1de7703a3a)
+
 cat > newfile 
 Hello world
 hello world
- 
+ ![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/cd01dec6-e7d3-4114-829d-9b813a990271)
+
 grep Hello newfile 
 ## OUTPUT
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/b4bb7e72-3aa1-43a4-a5f4-31e8f08b3ac6)
 
-
-
+## OUTPUT
 grep hello newfile 
+![image](https://github.com/MaithreyanDinakaran/OS-Linux-commands-Shell-script/assets/119104032/ff40e36a-32f5-48e2-899d-396846e977df)
+ 
 ## OUTPUT
-
-
-
-
-grep -v hello newfile 
-## OUTPUT
-
+grep -v hello newfile
 
 
 cat newfile | grep -i "hello"
